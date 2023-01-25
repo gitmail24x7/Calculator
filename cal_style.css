@@ -1,0 +1,51 @@
+
+body{
+    
+    background-color: (255,226,218);
+    color: rgb(97, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    background: #fff;
+    border: 2px solid purple;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    font-size: 30px;
+    padding: 0.7em;
+    text-align: center;
+    cursor: default;
+    transition: 0.2s;
+}
+.td:hover{
+    background-color: #310958;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    border:none;
+    outline: none;
+    font-size: 2em;
+    background-color: #f3cdff;
+    color: #8500c8;
+    text-align: right;
+    padding-right: 5px;
+}
+.vari{
+    background-color: #370037;
+    color: white;
+}
+b{
+    color: purple;
+}
+.equalbtn{
+    background-color: purple;
+    color: white;
+}

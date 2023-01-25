@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal_style.css">
+   <script src="calculation.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <input type="text" id="input" placeholder="0" disabled>
+        <input type="text" id="output" placeholder="0" disabled>
+
+        <table>
+            <tr>
+                <td onclick="calculated('(')">(</td>
+                <td onclick="calculated(')')">)</td>
+                <td onclick="removech()">&it;E</td>
+                <td onclick="calculated('+')" class="vari">+</td>
+            </tr>
+
+            <tr>
+                <td onclick="calculated('7')">7</td>
+                <td onclick="calculated('8')">8</td>
+                <td onclick="calculated('9')">9</td>
+                <td onclick="calculated('-')"class="vari">-</td>
+            </tr>
+
+            <tr>
+                <td onclick="calculated('4')">4</td>
+                <td onclick="calculated('5')">5</td>
+                <td onclick="calculated('6')">6</td>
+                <td onclick="calculated('*')" class="vari">*</td>
+            </tr>
+            
+            <tr>
+                <td onclick="calculated('1')">1</td>
+                <td onclick="calculated('2')">2</td>
+                <td onclick="calculated('3')">3</td>
+                <td onclick="calculated('/')" class="vari">/</td>
+            </tr>
+
+            <tr>
+                <td onclick="resetAll()"><b>C</b></td>
+                <td onclick="calculated('0')">0</td>
+                <td onclick="calculated('.')">.</td>
+                <td onclick="equal()" class="equalbtn">=</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
